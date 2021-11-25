@@ -12,6 +12,6 @@ rodando api na porta 3000
 
 endpoint POST /img-to-txt
 
-mandar arquivo com nome file | e carregar o arquivo normalmente como form-data
+mandar arquivo no BODY com nome "file" | e carregar o arquivo normalmente como form-data
 
-retorno deverá ser um JSON
+retorno deverá ser um JSON contendo o texto do captcha
