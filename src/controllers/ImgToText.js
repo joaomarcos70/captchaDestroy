@@ -1,5 +1,3 @@
-const Tesseract = require('tesseract.js')
-
 const uploadFolder = './uploads';
 const fs = require('fs');
 var rimraf = require("rimraf");
